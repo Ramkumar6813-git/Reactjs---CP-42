@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.not-found-image {
+  width: 220px;
+}
+.not-found-heading {
+  margin-bottom: 20px;
+}
+.not-found-description {
+  font-size: 16px;
+}
