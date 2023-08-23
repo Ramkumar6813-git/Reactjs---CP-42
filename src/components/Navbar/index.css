@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .nav-bar-div {
   display: flex;
   flex-direction: row;
@@ -41,4 +42,20 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
+}
+.link-color-dark-theme {
+  color: #ffffff;
+}
+.link-color-light-theme {
+  color: #000000;
+}
+.theme-button {
+  background-color: transparent;
+  border: none;
+}
+.dark-theme {
+  background-color: #333333;
+}
+.light-theme {
+  background-color: #ffffff;
 }

@@ -3,19 +3,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+.dark-theme-bg-color {
+  background-color: #000000;
+}
 .not-found-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
 }
 .not-found-image {
   width: 220px;
 }
 .not-found-heading {
   margin-bottom: 20px;
+  color: #333333;
+}
+.dark-theme-heading-color {
+  color: #ffffff;
 }
 .not-found-description {
   font-size: 16px;
+}
+.light-theme-description-color {
+  color: #64748b;
+}
+.dark-theme-description-color {
+  color: #dcdcdc;
 }
